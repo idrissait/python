@@ -21,7 +21,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Save as an Excel file
-file_path = "/Users/XXXXXXX/.spyder-py3/jsonl_template.xlsx"
+file_path = "/Users/XXXXXXX/.spyder-py3/jsonl_template.xlsx"  # Update with your file path
 df.to_excel(file_path, index=False)
 
 # Provide the file for download
